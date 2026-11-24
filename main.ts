@@ -9,6 +9,12 @@ import { dirname, join } from "node:path";
 const LINE =
   "I resign as your human cannonball; please forward my final paycheck to wherever I land.";
 
+// Gate guard: the bounty only accepts a one-line entry of 1-140 chars.
+// Validate before writing so a bad line never lands in /output/entry.txt.
+if (LINE.length < 1 || LINE.length > 140) {
+  throw new Error(`Entry line must be 1-140 characters, got ${LINE.length}`);
+}
+
 const outDir = process.env.OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
 writeFileSync(join(outDir, "entry.txt"), LINE + "\n", "utf8");
