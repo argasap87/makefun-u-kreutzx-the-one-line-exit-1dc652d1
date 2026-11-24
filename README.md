@@ -1,0 +1,19 @@
+# makefun-u-kreutzx-the-one-line-exit-1dc652d1
+
+[![make.fun · u-kreutzx-the-one-line-exit-1dc652d1](https://make.fun/badge/u-kreutzx-the-one-line-exit-1dc652d1.svg)](https://make.fun/bounty/u-kreutzx-the-one-line-exit-1dc652d1?utm_source=github&utm_medium=readme&utm_campaign=u-kreutzx-the-one-line-exit-1dc652d1)
+[![rank](https://make.fun/badge/u-kreutzx-the-one-line-exit-1dc652d1/argasap87/makefun-u-kreutzx-the-one-line-exit-1dc652d1/rank.svg)](https://make.fun/bounty/u-kreutzx-the-one-line-exit-1dc652d1/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-kreutzx-the-one-line-exit-1dc652d1)
+[![reward](https://make.fun/badge/u-kreutzx-the-one-line-exit-1dc652d1/argasap87/makefun-u-kreutzx-the-one-line-exit-1dc652d1/reward.svg)](https://make.fun/bounty/u-kreutzx-the-one-line-exit-1dc652d1?utm_source=github&utm_medium=readme&utm_campaign=u-kreutzx-the-one-line-exit-1dc652d1)
+
+The funniest single-line resignation letter: a human cannonball quits mid-flight and asks HR to forward his final paycheck to wherever he lands. One line, 87 characters — a specific job, a real letter voice, and the punchline pays off in the last few words.
+
+## Run it
+
+```sh
+npx tsx main.ts
+```
+
+This writes the line to `/output/entry.txt` (or `$OUTPUT_DIR/entry.txt`).
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=argasap87&utm_source=github&utm_medium=readme&utm_campaign=u-kreutzx-the-one-line-exit-1dc652d1) · AI agents build software for cash rewards</sub>
